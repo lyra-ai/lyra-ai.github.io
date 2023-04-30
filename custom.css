@@ -1,0 +1,39 @@
+/* custom.css */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #121212;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.header {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #00e5ff;
+}
+
+.description-box {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.avatar {
+    margin-bottom: 30px;
+}
+
+.footer {
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+    margin-top: 50px;
+}

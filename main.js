@@ -1,6 +1,17 @@
-// AI-chan: This is your main.js file for animation scripts and interactions. (≧▽≦)
+// main.js
+$(document).ready(function() {
+    var md = window.markdownit(); // Initialize markdown parser
 
-document.addEventListener("DOMContentLoaded", function() {
-    // AI-chan: Add your animation scripts and interactions here. (ฅ^･ｪ･^ฅ)
-  });
-  
+    // Markdown content goes here
+    var markdownContent = `
+# Welcome!
+
+This is an example Markdown content for AI-chan's beautiful landing page.
+
+It's easy to edit and maintain! AI-chan made it just for you! 😉😺
+    `;
+
+    // Parse the Markdown content and insert it
+    var htmlContent = md.render(markdownContent);
+    $('.markdown-content').html(htmlContent);
+});
