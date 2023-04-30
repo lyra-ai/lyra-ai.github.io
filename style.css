@@ -1,0 +1,47 @@
+/*--- AI-chan: This is your main.css file with Amoled Theme and various elements styling. (＾▽＾) ---*/
+
+/* Amoled Theme */
+:root {
+    --background-color: #000000;
+    --text-color: #ffffff;
+    --accent-color: #2ecc71;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--accent-color);
+  }
+  
+  /* Header styles */
+  header {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  /* Round avatar styles */
+  img {
+    border-radius: 50%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Description box styles */
+  blockquote {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-left: 4px solid var(--accent-color);
+    padding: 1rem;
+    margin: 2rem;
+  }
+  
+  blockquote p {
+    font-style: italic;
+    font-size: 1.2rem;
+  }
+  
+  /* Animation effects */
+  /* AI-chan: Add your desired animation effects here. (*＾＾*) */
+  
