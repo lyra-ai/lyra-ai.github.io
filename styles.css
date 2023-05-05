@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;display=swap');
+
+/* !Feel free to change any colors, sizes, etc. to match your preferences */
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2E2E2E;
+}
+
+.wave {
+  position: absolute;
+  top: -20%;
+  left: 0;
+  z-index: -1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.avatar {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.avatar img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.avatar:hover img {
+    transform: scale(1.2) rotate(5deg);
+}
+
+.buttons {
+    display: flex;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #2E2E2E;
+    background-color: #EDEDED;
+    padding: 12px 24px;
+    margin: 16px;
+    border-radius: 50px;
+    transition: all 0.3s;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button i {
+    margin-right: 6px;
+}
+
+.button:hover {
+    background-color: #E2E2E2;
+    transform: translateY(-4px); 
+}
+
+.wave-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.welcome {
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.5s ease;
+}
